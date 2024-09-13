@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hackathon project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      body {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+      .main {
+        height: 900px;
+        width: 600px;
+        background-color: rgb(237, 245, 242);
+        display: flex;
+        flex-direction: row-reverse;
+      }
+      .left {
+        height: 900px;
+        width: 200px;
+        background-color: rgb(77, 83, 83);
+      }
+      .right {
+        height: 900px;
+        width: 400px;
+        background-color: rgb(244, 247, 248);
+      }
+      .h1 {
+        color: white;
+      }
+      .left-top {
+        height: 150px;
+        width: 200px;
+        background-color: rgb(189, 199, 199);
+        display: flex;
+        justify-content: center;
+      }
+
+      .right-top {
+        height: 180px;
+        width: 400px;
+        background-color: rgb(189, 199, 199);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        height: 150px;
+        width: 150px;
+        margin-top: 40px;
+        border-radius: 50%;
+        border: 2px solid white;
+      }
+      .left-bottom-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        color: white;
+        align-items: center;
+        height: 100vh;
+      }
+      .icons {
+        font-size: 30px;
+        padding: 10px;
+      }
+      .span {
+        font-size: x-large;
+        font-weight: bolder;
+      }
+
+      .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 15vh;
+      }
+      #linkedin {
+        color: blue;
+      }
+      #facebook {
+        color: blue;
+      }
+      #x {
+        color: black;
+      }
+      .contactdetailpar {
+        display: flex;
+        flex-direction: column;
+      }
+      .detailspan {
+        font-weight: bolder;
+      }
+      /* left side complete  */
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 100vh;
+        padding: 20px;
+      }
+      legend {
+        font-size: x-large;
+        font-weight: bolder;
+
+        color: rgb(77, 83, 83);
+      }
+      .personalspan {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="right">
+        <div class="right-top">
+          <div class="heading">
+            <h1 class="h1">Atif Bilal Khatri</h1>
+          </div>
+        </div>
+
+        <div class="right-bottom">
+          <form>
+            <fieldset>
+              <legend>Personal Information</legend>
+              <span class="personalspan"> Name: </span>Atif Bilal <br />
+              <span class="personalspan"> Contact Details :</span> 03160030007
+              <br />
+              <span class="personalspan">Occupation : </span> Web-developer
+            </fieldset>
+            <fieldset>
+              <legend>Education</legend>
+              <ul>
+                <li>Software Engg.</li>
+                <li>Mba in Finance.</li>
+                <li>Html.</li>
+                <li>Css</li>
+                <li>Typescript</li>
+                <li>Next.js</li>
+                <li>persuing Cloud computing in A.I</li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>skills</legend>
+              <ul>
+                <li>Businessman</li>
+                <li>Enterprenur</li>
+                <li>Digital Marketing Export</li>
+                <li>Web Developer</li>
+              </ul>
+            </fieldset>
+            <fieldset>
+              <legend>Experience</legend>
+              <ul>
+                <li>Businessman</li>
+                <li>Enterprenur</li>
+                <li>Digital Marketing Export</li>
+                <li>Web Developer</li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+
+      <div class="left">
+        <div class="left-top">
+          <img src="mueed sheikh.jpg" alt="" />
+        </div>
+        <div class="left-bottom">
+          <div class="left-bottom-content">
+            <div>
+              <span class="span">Profile</span>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Quibusdam deserunt quasi aliquam deleniti harum placeat ut
+                officia dolore saepe consectetur
+              </p>
+            </div>
+            <div class="links">
+              <span class="span">social Media</span>
+              <div>
+                <a href="" id="linkedin" class="icons"
+                  ><i class="fa-brands fa-linkedin"></i
+                ></a>
+                <a href="" id="x" class="icons"
+                  ><i class="fa-brands fa-x-twitter"></i
+                ></a>
+                <a href="" id="facebook" class="icons"
+                  ><i class="fa-brands fa-square-facebook"></i
+                ></a>
+              </div>
+            </div>
+            <div class="contactdetail">
+              <p class="contactdetailpar">
+                <span class="detailspan">Number</span>0333-234567
+              </p>
+              <p class="contactdetailpar">
+                <span class="detailspan">Email</span>Atif@gmail.com
+              </p>
+              <p class="contactdetailpar">
+                <span class="detailspan">Address</span>Hyderabad Sindh, Pakistan
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
